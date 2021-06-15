@@ -1,16 +1,24 @@
-<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 /* Style the header */
 .header {
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   font-size: 35px;
 }
@@ -55,4 +63,3 @@ body {
     flex-direction: column;
   }
 }
-</style>

@@ -11,22 +11,53 @@
 }
 
 body {
-  font-family: Montserrat, Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 300;
 }
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-color: #003300;
   padding: 50px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
+  height: 300px;
 }
 
 /* Container for flexboxes */
 .row {
   display: -webkit-flex;
   display: flex;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: Raleway, sans-serif;
+  color: #b88747;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Navigation Menu*/
+
+#navmenu ol, ul {
+  list-style-type: none;
+}
+
+#navmenu {
+  margin: 20px;
+  width: 100%;
+  font-family: Raleway, sans-serif;
+  height: 100px;
+   
+}
+
+#navmenu li {
+  display:block;
+  width: 120px;
+  float: left;
+  margin-left: 60px;
+  
 }
 
 /* Create three unequal columns that sits next to each other */

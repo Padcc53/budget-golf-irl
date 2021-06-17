@@ -21,7 +21,20 @@ body {
   padding: 50px;
   text-align: center;
   font-size: 25px;
-  height: 500px;
+  height: 300px;
+}
+
+#welcome {
+  margin-top: 5px;
+  float: left;
+  text-align: left;
+}
+
+.welcome-text {
+  margin-left: 5px;
+  margin-top: 125px;
+  text-align: left;
+  
 }
 
 /* Container for flexboxes */
@@ -38,6 +51,10 @@ h1, h2 {
   letter-spacing: 2px;
 }
 
+nav{
+  background-color: white;
+  
+}
 /* Navigation Menu*/
 
 #navmenu ol, ul {
@@ -51,15 +68,16 @@ h1, h2 {
   font-family: Raleway, sans-serif;
   height: 100px;
   background-color: black;
-  float: left;
+  text-align: center;
     
 }
 
 #navmenu li {
-  display:block;
-  width: 120px;
-  float: left;
+  display: inline-block;
+  width: 100px;
   margin-left: 60px;
+  background-color: yellow;
+  text-align: center;
   
 }
 
@@ -77,7 +95,8 @@ h1, h2 {
 /* Create three unequal columns that sits next to each other */
 .column {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 500px;
+  
 }
 
 /* Left and right column */
@@ -85,6 +104,8 @@ h1, h2 {
    -webkit-flex: 1;
    -ms-flex: 1;
    flex: 1;
+   float: left;
+   text-align: left;
 }
 
 /* Middle column */

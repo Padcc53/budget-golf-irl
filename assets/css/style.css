@@ -61,38 +61,45 @@ nav {
 
 #navmenu ol,
 ul {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+
 }
 
 #navmenu {
-  margin: 60px;
-  margin-right: 100px;
+  margin: 60px 0;
   width: 900px;
   font-family: Raleway, sans-serif;
   height: 100px;
   background-color: black;
   text-align: center;
-
+  overflow-x: auto;
 }
 
 #navmenu li {
-  display: inline-block;
-  width: 100px;
-  margin-left: 60px;
+  color: white;
+  flex: 1;
   background-color: yellow;
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, .12);
+  padding: 10px
 
 }
 
-#navmenu a {
-  display: block;
-  padding: 2px;
-  text-decoration: none;
-  color: antiquewhite;
+#navmenu li a {
+      text-decoration: none;
+  }
+
+#navmenu li:hover {
+    background: green;
 }
 
-#navmenu a:hover {
-  color: red;
+#navmenu li:hover a {
+    color: white;
 }
 
 /* Create three unequal columns that sits next to each other */

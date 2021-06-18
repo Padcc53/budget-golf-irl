@@ -102,10 +102,24 @@ ul {
     color: white;
 }
 
+/* plantable table layout for planning criteria */
+
+#planhead {
+  padding-top: 50px;
+  color: #b88747;
+  
+}
+
+.plancriteria h3 {
+  margin-top: 30px;
+  color:#b88747;
+  margin-bottom: 12px;
+}
+
 /* Create three unequal columns that sits next to each other */
 .column {
   padding: 10px;
-  height: 700px;
+  height: 1100px;
 
 }
 
@@ -151,4 +165,6 @@ ul {
     flex-direction: column;
   }
 }
+
+
 

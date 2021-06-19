@@ -153,6 +153,30 @@ ul {
   height: 150px;
 }
 
+.footer ul {
+  text-align: center;
+  background-color: black;
+  padding-top: 3%;
+  display: inline-block;
+  width: 10%
+  height: auto;
+  
+}
+
+.footer > li {
+  
+  background-color: aqua;
+}
+
+.footer i {
+  font-size: 150%;
+  padding-top: 20%;
+  margin: 1%;
+  padding: 10%;
+  color:#b88747;
+  text-align: center;
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .column.side, .column.middle{

@@ -116,6 +116,17 @@ ul {
   margin-bottom: 12px;
 }
 
+/*  create a box for the met eireann image */
+
+.metmap {
+  margin: 2px;
+  border: 1px solid #ccc;
+  float: left;
+  max-height: 70%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 /* Create three unequal columns that sits next to each other */
 .column {
   padding: 10px;

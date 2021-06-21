@@ -53,8 +53,7 @@ h2 {
 }
 
 nav {
-  background-color: white;
-
+  background-color: yellow;
 }
 
 /* Navigation Menu*/
@@ -72,10 +71,9 @@ ul {
 
 #navmenu {
   margin: 60px 0;
-  width: 900px;
+  width: 60%;
   font-family: Raleway, sans-serif;
   height: 100px;
-  background-color: black;
   text-align: center;
   overflow-x: auto;
 }
@@ -83,7 +81,6 @@ ul {
 #navmenu li {
   color: white;
   flex: 1;
-  background-color: yellow;
   text-align: center;
   border: 1px solid rgba(0, 0, 0, .12);
   padding: 10px
@@ -121,12 +118,18 @@ ul {
 .metmap {
   padding-top: 15px;
   margin: 2px;
-  border: 1px solid #ccc;
   float: left;
   max-height: 70%;
-  max-width: 70%;
+  max-width: 60%;
   overflow: hidden;
   text-align: center;
+  display: block;
+}
+
+.wethdesc {
+  padding-top: 15px;
+  max-height: 50%;
+   
 }
 
 /* Create three unequal columns that sits next to each other */
@@ -167,10 +170,10 @@ ul {
 }
 
 .footer ul {
-  background-color: black;
+  background-color: green;
   padding-top: 3%;
   width: 66%;
-  display: inline-flex;
+  display: flex;
   
   
 }

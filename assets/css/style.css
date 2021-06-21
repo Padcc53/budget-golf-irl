@@ -119,12 +119,14 @@ ul {
 /*  create a box for the met eireann image */
 
 .metmap {
+  padding-top: 15px;
   margin: 2px;
   border: 1px solid #ccc;
   float: left;
   max-height: 70%;
   max-width: 70%;
   overflow: hidden;
+  text-align: center;
 }
 
 /* Create three unequal columns that sits next to each other */
@@ -165,12 +167,11 @@ ul {
 }
 
 .footer ul {
-  text-align: center;
   background-color: black;
   padding-top: 3%;
-  display: inline-block;
-  width: 10%
-  height: auto;
+  width: 66%;
+  display: inline-flex;
+  
   
 }
 

@@ -120,7 +120,7 @@ ul {
   margin: 2px;
   float: left;
   max-height: 70%;
-  max-width: 60%;
+  max-width: 100%;
   overflow: hidden;
   text-align: center;
   display: block;
@@ -136,6 +136,8 @@ ul {
 .column {
   padding: 10px;
   height: 1100px;
+  min-width: 100%;
+  max-width: 100%;
 
 }
 
@@ -170,17 +172,21 @@ ul {
 }
 
 .footer ul {
-  background-color: green;
+  background-color: #003300;
   padding-top: 3%;
-  width: 66%;
+  width: 100%;
   display: flex;
-  
-  
+  text-align: center;
+    
 }
 
-.footer > li {
-  
-  background-color: aqua;
+.falign {
+  text-align: center;
+}
+
+.footer li a {
+  padding-left: 40px;
+  margin-left: 30px;  
 }
 
 .footer i {
